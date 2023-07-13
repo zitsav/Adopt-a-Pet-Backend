@@ -35,14 +35,8 @@ const PetSchema = new mongoose.Schema(
     },
     images: [
       {
-        publicId: {
           type: String,
           required: true,
-        },
-        url: {
-          type: String,
-          required: true,
-        },
       },
     ],
   },
